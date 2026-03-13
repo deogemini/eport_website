@@ -13,14 +13,6 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
-Route::get('/blog-details', function () {
-    return view('blog-details');
-})->name('blog-details');
-
-Route::get('/blog-grids', function () {
-    return view('blog-grids');
-})->name('blog-grids');
-
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');

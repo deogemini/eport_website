@@ -144,14 +144,6 @@
               <ul>
                 <li>
                   <a
-                    href="{{ route('blog-grids') }}"
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-primary"
-                  >
-                    Our Blog
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="{{ route('signin') }}"
                     class="inline-block mb-3 text-base text-gray-7 hover:text-primary"
                   >

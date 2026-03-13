@@ -74,14 +74,6 @@
                       Contact
                     </a>
                   </li>
-                  <li class="relative group">
-                    <a
-                      href="{{ route('blog-grids') }}"
-                      class="flex py-2 mx-8 text-base font-medium ud-menu-scroll text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10"
-                    >
-                      Blog
-                    </a>
-                  </li>
                   <li class="relative submenu-item group">
                     <a
                       href="javascript:void(0)"
@@ -122,18 +114,6 @@
                         class="block rounded-sm px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
                       >
                         Contact Page
-                      </a>
-                      <a
-                        href="{{ route('blog-grids') }}"
-                        class="block rounded-sm px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
-                      >
-                        Blog Grid Page
-                      </a>
-                      <a
-                        href="{{ route('blog-details') }}"
-                        class="block rounded-sm px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
-                      >
-                        Blog Details Page
                       </a>
                       <a
                         href="{{ route('signup') }}"
