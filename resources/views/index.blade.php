@@ -4960,7 +4960,7 @@
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="{{ route('privacy-policy') }}"
                     class="inline-block mb-3 text-base text-gray-7 hover:text-primary"
                   >
                     Privacy policy
@@ -5077,7 +5077,7 @@
                   class="flex items-center justify-center -mx-3 md:justify-start"
                 >
                   <a
-                    href="javascript:void(0)"
+                    href="{{ route('privacy-policy') }}"
                     class="px-3 text-base text-gray-7 hover:text-white hover:underline"
                   >
                     Privacy policy

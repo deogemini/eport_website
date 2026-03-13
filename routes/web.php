@@ -37,3 +37,7 @@ Route::get('/signup', function () {
 Route::get('/404', function () {
     return view('404');
 })->name('404');
+
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+})->name('privacy-policy');
